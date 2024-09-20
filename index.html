@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArtImpact - Trouvez des subventions pour vos projets artistiques et sociaux</title>
     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
     <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
     Chatbot.init({
@@ -37,12 +40,12 @@
             },
             chatWindow: {
                 showTitle: true,
-                title: 'Flowise Bot',
+                title: 'ArtImpact Bot',
                 titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                 showAgentMessages: true,
-                welcomeMessage: 'Donne moi ton projet en 1 phrase, le lieu ou est basé le projet, et la cause que tu souhaite aider! Je te trouve les subventions auxquelles tu as le droit!
+                welcomeMessage: 'Donne moi ton projet en 1 phrase, le lieu ou est basé le projet, et la cause que tu souhaites aider! Je te trouve les subventions auxquelles tu as le droit!
 ',
-                errorMessage: 'This is a custom error message',
+                errorMessage: 'Excuse moi je n'ai pas bien compris! ',
                 backgroundColor: "#ffffff",
                 backgroundImage: 'enter image path or link', // If set, this will overlap the background color of the chat window.
                 height: 700,
@@ -89,8 +92,6 @@
         }
     })
 </script>
-</head>
-<body>
     <header>
         <div class="container">
             <h1>ArtImpact</h1>
